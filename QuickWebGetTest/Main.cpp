@@ -60,6 +60,7 @@ int main() {
 
 	std::wcout << GetToString(input);
 
+	std::cin.ignore();
 	std::cin.get();
 	return 0;
 }
